@@ -67,7 +67,7 @@ public class EmployeeController {
 		 return this.employeeService.updateEmployee(emp);
 	}
 	
-	@DeleteMapping("/delete")
+	@DeleteMapping("/delete/{id}")
     public ResponseEntity<String> deleteEmployee(@PathVariable("id") long id) {
         System.out.println("delete method call by id");
         
