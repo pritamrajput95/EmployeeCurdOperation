@@ -1,0 +1,40 @@
+Step for commit code on githubs :
+
+Step 1 : first right click on project ->Team-> Share project ->create local repository =repository7
+
+Step2: commit code on local repository 
+
+Step3:  create repository on github 
+
+ https://github.com/pritamrajput95/57-Security-JWT-App.git
+
+Step4: search Git Repository then clone repository 
+
+Step5: after clone again commit same code on github repository
+
+
+Step for commit code on githubs : using command line
+
+Step 1 : Initialize a local Git repository
+
+     git init 
+
+Step 2 : Add  your code to the local repository
+  
+     git add .
+
+Step 3 : Commit your code to the local repository
+ 
+     git commit -m "Your commit message here"
+
+Step 4 : Create a repository on GitHub
+      
+     https://github.com/pritamrajput95/57-Security-JWT-App.git
+
+Step 5 : Connect the local repository to the remote (GitHub) repository
+   
+     remote add origin https://github.com/pritamrajput95/57-Security-JWT-App.git
+
+Step 6 : Push your local changes to GitHub
+   
+     git push origin master
