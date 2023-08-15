@@ -3,6 +3,7 @@ package com.emp.service;
 import java.util.List;
 
 import com.emp.entity.Employee;
+import com.emp.response.EmployeeResponse;
 
 public interface EmployeeService {
 
@@ -12,8 +13,8 @@ public interface EmployeeService {
 
 	Employee addEmployee(Employee employee);
 
-	Employee updateEmployee(Employee employee);
+	EmployeeResponse updateEmployee(long id, Employee employee);
 
-	void deleteEmployee(long id);
+	EmployeeResponse deleteEmployee(long id);
 
 }
